@@ -6,38 +6,48 @@ import { useSelector } from "react-redux";
 const Navbar = () => {
   const { carts } = useSelector((state) => state.meals);
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <Link className="navbar-brand mx-5 d-flex" to="/">
-          <img
-            src="https://static.vecteezy.com/ti/vecteur-libre/p3/5550808-modele-de-conception-de-logo-de-restaurant-pour-marque-ou-entreprise-et-autre-vectoriel.jpg"
-            className="rounded-1"
-            style={{ height: "auto", width: "50px" }}
-          />
-        </Link>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <Link className="nav-link" to="/">
-                Home
-              </Link>
-            </li>
-          </ul>
-          <div class="d-flex">
+    <nav
+      className="navbar navbar-expand-lg"
+      style={{ backgroundColor: "#8B4513", padding: "10px 20px" }}
+    >
+      <Link
+        className="navbar-brand mx-5"
+        to="/"
+        style={{ color: "#fff", fontWeight: "bold", fontSize: "1.5rem" }}
+      >
+        React Meals
+      </Link>
+      <div className="collapse navbar-collapse justify-content-end">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
             <button
-              className="btn btn-success position-relative me-2"
+              className="nav-link btn btn-dark rounded-pill d-flex align-items-center"
+              style={{
+                backgroundColor: "#5c2c0e",
+                color: "#fff",
+                border: "none",
+                padding: "5px 15px",
+              }}
               type="button"
               data-bs-toggle="modal"
               data-bs-target="#carts"
               href="/cart"
             >
-              <FaCartShopping />
-              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              <FaCartShopping style={{ marginRight: "5px" }} />
+              <span>Order</span>
+              <span
+                className="badge badge-light ml-2"
+                style={{
+                  marginLeft: "8px",
+                  backgroundColor: "#f5c6a5",
+                  color: "#5c2c0e",
+                }}
+              >
                 {carts.length}
               </span>
             </button>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
       <ModalCart></ModalCart>
     </nav>

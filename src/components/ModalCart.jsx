@@ -31,7 +31,7 @@ const ModalCart = () => {
               ></button>
             </div>
             <div className="modal-body">
-              <ul class="list-group">
+              <ul className="list-group">
                 {carts.map((cart) => (
                   <li
                     key={cart.id}
@@ -49,7 +49,7 @@ const ModalCart = () => {
                       </h6>
 
                       <br />
-                      {cart.totalPrice}
+                      {cart.totalPrice.toFixed(2)}
                     </div>
                     <div>
                       <button
@@ -76,7 +76,7 @@ const ModalCart = () => {
                   className="border rounded-1 px-2 mx-2"
                   style={{ border: "1px solid gray" }}
                 >
-                  ${TotalAmount}
+                  ${TotalAmount.toFixed(2)}
                 </span>
               </h5>
             </div>
