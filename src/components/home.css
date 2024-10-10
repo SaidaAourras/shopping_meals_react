@@ -1,0 +1,8 @@
+body{
+    margin: 0px auto;
+    background: linear-gradient(rgba(5, 5, 5, 0.678), rgba(22, 22, 22, 0.349)), url('https://t4.ftcdn.net/jpg/04/76/57/27/360_F_476572792_zMwqHpmGal1fzh0tDJ3onkLo88IjgNbL.jpg') center center fixed no-repeat;
+    
+    background-repeat: no-repeat;      
+    background-size: cover;  
+}  
+

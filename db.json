@@ -1,0 +1,140 @@
+{
+    "meals": [
+      {
+        "id": 1,
+        "name": "Spaghetti Bolognese",
+        "category": "Italian",
+        "image": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg",
+        "rating": 5,
+        "description": "A classic Italian pasta dish made with ground beef, tomatoes, onions, and garlic served over spaghetti.",
+        "price": 12.99
+      },
+      {
+        "id": 2,
+        "name": "Chicken Tikka Masala",
+        "category": "Indian",
+        "image": "https://www.themealdb.com/images/media/meals/xxpqsy1511452222.jpg",
+        "rating": 5,
+        "description": "Grilled chicken chunks marinated in spices and yogurt, served in a rich, creamy tomato sauce.",
+        "price": 13.99
+      },
+      {
+        "id": 3,
+        "name": "Sushi",
+        "category": "Japanese",
+        "image": "https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg",
+        "rating": 4,
+        "description": "Vinegared rice served with raw or cooked seafood, vegetables, and seaweed. A Japanese staple.",
+        "price": 15.99
+      },
+      {
+        "id": 4,
+        "name": "Beef Tacos",
+        "category": "Mexican",
+        "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg",
+        "rating": 5,
+        "description": "Tortillas filled with seasoned ground beef, lettuce, cheese, and a variety of sauces.",
+        "price": 10.99
+      },
+      {
+        "id": 5,
+        "name": "Pad Thai",
+        "category": "Thai",
+        "image": "https://www.royco.co.za/cdn-cgi/image/width=1360,height=583,f=auto,quality=90/sites/g/files/fnmzdf1866/files/2024-09/Crunchy%20Sweet%20and%20Sour%20Stir-Fry_0.jpeg",
+        "rating": 5,
+        "description": "Stir-fried rice noodle dish with shrimp, tofu, eggs, peanuts, and bean sprouts. Popular street food in Thailand.",
+        "price": 11.99
+      },
+      {
+        "id": 6,
+        "name": "Falafel",
+        "category": "Middle Eastern",
+        "image": "https://frymax.co.uk/wp-content/uploads/2023/11/deep-fried-eggs.jpg",
+        "rating": 4,
+        "description": "Deep-fried balls of ground chickpeas or fava beans, usually served in pita bread with vegetables and tahini.",
+        "price": 8.99
+      },
+      {
+        "id": 7,
+        "name": "Cheeseburger",
+        "category": "American",
+        "image": "https://www.eatingbirdfood.com/wp-content/uploads/2023/06/grilled-chicken-salad-hero.jpg",
+        "rating": 5,
+        "description": "A grilled beef patty topped with cheese, lettuce, tomatoes, and onions, served in a bun.",
+        "price": 9.99
+      },
+      {
+        "id": 8,
+        "name": "Ratatouille",
+        "category": "French",
+        "image": "https://www.themealdb.com/images/media/meals/wrpwuu1511786491.jpg",
+        "rating": 4,
+        "description": "A stewed vegetable dish consisting of eggplant, zucchini, tomatoes, and peppers in a flavorful herb sauce.",
+        "price": 10.49
+      },
+      {
+        "id": 9,
+        "name": "Chicken Caesar Salad",
+        "category": "Salads",
+        "image": "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg",
+        "rating": 4,
+        "description": "A fresh salad made with grilled chicken, romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+        "price": 11.49
+      },
+      {
+        "id": 10,
+        "name": "Butter Chicken",
+        "category": "Indian",
+        "image": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg",
+        "rating": 5,
+        "description": "A rich, creamy dish of tender chicken cooked in a spiced tomato sauce with butter.",
+        "price": 14.99
+      },
+      {
+        "id": 11,
+        "name": "Pizza Margherita",
+        "category": "Italian",
+        "image": "https://www.themealdb.com/images/media/meals/x0lk931587671540.jpg",
+        "rating": 5,
+        "description": "A simple Italian pizza with fresh tomatoes, mozzarella cheese, basil, and olive oil.",
+        "price": 12.49
+      },
+      {
+        "id": 12,
+        "name": "Pho",
+        "category": "Vietnamese",
+        "image": "https://www.fitadium.com/conseils/wp-content/uploads/2023/11/meal-prep-pdm-scaled.jpg",
+        "rating": 5,
+        "description": "A traditional Vietnamese noodle soup with broth, rice noodles, herbs, and meat, typically beef or chicken.",
+        "price": 9.99
+      },
+      {
+        "id": 13,
+        "name": "Paella",
+        "category": "Spanish",
+        "image": "https://www.themealdb.com/images/media/meals/1520081754.jpg",
+        "rating": 5,
+        "description": "A classic Spanish dish made with rice, saffron, seafood, chicken, and vegetables.",
+        "price": 16.99
+      },
+      {
+        "id": 14,
+        "name": "Moussaka",
+        "category": "Greek",
+        "image": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg",
+        "rating": 4,
+        "description": "A layered casserole of eggplant, ground beef, and béchamel sauce, baked to golden perfection.",
+        "price": 12.99
+      },
+      {
+        "id": 15,
+        "name": "Shakshuka",
+        "category": "Middle Eastern",
+        "image": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg",
+        "rating": 4,
+        "description": "Poached eggs cooked in a spicy tomato and pepper sauce, often served with bread.",
+        "price": 10.99
+      }
+    ]
+  }
+  
